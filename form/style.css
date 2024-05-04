@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; /* Setting the font family */
+}
+
+body {
+  background: #fcc776;
+}
+
+.head {
+  background-color: #f27815; /* Header background color */
+  color: white; /* Header text color */
+  padding: 20px; /* Padding for the header */
+  text-align: center;
+  /* Center aligning the text */
+
+  /* Center aligning the text */
+}
+
+.upper {
+  padding: 20px; /* Adding padding */
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.form {
+  margin-bottom: 15px; /* Adding space between form elements */
+}
+
+h4 {
+  margin-bottom: 5px; /* Adding space below the heading */
+}
+
+input[type="number"],
+input[type="text"],
+input[type="name"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Optional: Style the select dropdown arrow */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23000000"><path d="M7 10l5 5 5-5H7z"/><path fill="none" d="M0 0h24v24H0z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  cursor: pointer;
+}
+.second_upper {
+  padding: 20px; /* Adding padding */
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.third_upper {
+  padding: 20px; /* Adding padding */
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.last {
+  padding: 10px; /* Adding padding */
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.details {
+  background: grey;
+}
+
+.details h2 {
+  color: rgba(236, 233, 233, 0.883);
+}
